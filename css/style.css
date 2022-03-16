@@ -1,0 +1,83 @@
+body {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  margin: auto 42px;
+  background-attachment: fixed;
+  background-image: url(../image/img.jpg);
+}
+
+header {
+  max-width: fit-content;
+  border-radius: 12px;
+  padding: px;
+  background-color: rgb(5, 2, 0);
+  border-left: 5px solid deeppink;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.877);
+  padding: 6px;
+}
+
+main {
+  width: 700px;
+  margin: auto;
+  padding: 24px;
+  background-color: rgb(211, 198, 236);
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px rgba(239, 235, 241, 0.89);
+}
+
+main h2 {
+  color: midnightblue;
+  border-left: 5px solid;
+  text-align: left;
+  padding-left: 8px;
+}
+
+ul {
+  list-style: circle;
+}
+
+ul h2 {
+  text-align: left;
+}
+
+ul p {
+  text-align: left;
+  color: rgb(56, 56, 58);
+}
+
+.section {
+  margin-top: 42px;
+}
+
+#happy {
+  max-width: fit-content;
+  margin: 30px 4px 10px 900px;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-left: 5px solid deeppink;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: deeppink;
+}
+
+img {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 900px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.877);
+}
+
+@media screen (min-width: 576px) {
+  
+}
